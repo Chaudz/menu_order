@@ -1,0 +1,23 @@
+html{
+  font-size: 16px;
+}
+body{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0
+}
+/* Ẩn các mũi tên tăng giảm số */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+/* Ẩn khung chỉnh số khi trỏ vào */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
